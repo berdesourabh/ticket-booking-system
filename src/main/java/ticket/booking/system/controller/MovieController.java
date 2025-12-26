@@ -22,7 +22,7 @@ public class MovieController {
 
     @GetMapping("/")
     public List<Movie> getAllMovies() {
-        log.info("Fetching movies");
+        log.info("Fetching all movies");
         return movieService.getAll();
     }
 }
